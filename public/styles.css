@@ -1,0 +1,27 @@
+#editor,#preview{
+    width: 40%;
+    margin: auto;
+}
+
+
+
+#work-area{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+#app > h1{
+    text-align: center;
+}
+
+#preview-text{
+    border: 1px solid black;
+    padding: 1rem;
+    height: 50vh;
+    overflow-y: auto;
+}
