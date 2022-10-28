@@ -20,7 +20,6 @@ export default class App extends Component {
       <h1>MarkDown Previewer</h1>
       <div id='work-area'>
       <Editor handleChange = {this.handleChange}/>
-      {console.log(this.state)}
       <Preview markDown = {this.state.markDown}/>
       </div>
     </div>);

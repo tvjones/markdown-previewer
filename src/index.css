@@ -11,3 +11,94 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+#editor,#preview{
+  width: 40%;
+  margin: auto;
+}
+
+
+
+#work-area{
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+}
+
+#app > h1{
+  text-align: center;
+  font-size: 3rem;
+}
+
+ #preview-text{
+  border: 2px solid blue;
+  width: 100%;
+  padding: 10px;
+  min-height: 60vh;
+  max-height: 60vh;
+  background-color: black;
+  color: white;
+}
+
+#preview-text a{
+  color: white;
+}
+
+#preview{
+  width: 45%;
+}
+
+#preview >h2, #editor >h2{
+  text-align: center;
+}
+
+#editor{
+  width: 45%;
+}
+
+#editor textarea{
+  width: 100%;
+  border: 2px solid blue;
+  min-height: 60vh;
+  font-size: 1.3rem;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+#preview-text{
+  
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  #work-area{
+      display: block;
+      width: 80%;
+  }
+
+  #editor{
+      width: 100%;
+      margin: auto;
+  }
+
+  #editor >textarea, #editor>h2{
+      width: 100%;
+      margin: auto;
+      display: block;
+  }
+
+  #editor>h2{
+      margin-bottom: 1rem;
+  }
+
+  #preview,#preview-text{
+      width:100%;
+      margin: auto;
+  }
+}
