@@ -20,7 +20,8 @@ Live link: https://markdown-previewer-iota.vercel.app
 
 ## Screenshot
 
-![image](https://user-images.githubusercontent.com/43976584/192368385-3057a48a-426f-407e-88e5-6a887761a964.png)
+![markdown-previewer](https://user-images.githubusercontent.com/43976584/198503797-455fe9aa-b02f-400e-b7e0-bc27365feb31.PNG)
+
 
 
 
